@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 15%;
+    flex-shrink: 0;
+    background-color: rgb(5, 108, 108);
+    border-bottom: 1px solid #194742;
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+    min-height: 0;
+    width: 100%;
+}
+
+.menu {
+    width: 15%;
+    flex-shrink: 0;
+    background-color: #eae1d3;
+    padding: 10px 20px 0;
+    border-right: 1px solid #194742;
+}
+
+.content {
+    flex: 1;
+    min-width: 0;
+    min-height: 0;
+    background-color: #eae1d3;
+    padding: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 15%;
+    flex-shrink: 0;
+    background-color: #36ad9f;
+    border-top: 1px solid #194742;
+    display: flex;
+    align-items: center;
+}
+
+.infos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    gap: 10px;
+    margin: 0 200px;
+    min-width: 0;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+}
+
+.formatarMenu{
+    text-align: center;
+}
+
+a{
+    display: block;
+    margin-bottom: 40px;
+}
+
+.fonteApple {
+    font-family: 'Apple Chancery', cursive;
+}
+
+.fonteGeorgia {
+    font-family: 'Georgia', serif;
+}
+
+.fonteVerdana {
+    font-family: 'verdana', sans-serif;
+}
+
+.formatarContentInicio {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.formatarContentSobre {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.listaSobre {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    margin-left: 20px;
+}
+
+.listaSobre ul {
+    flex: 1;
+    margin-left: 20px;
+    min-width: 0;
+}
+
+.fotoClinica {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+    margin-top: -27px;
+    margin-right: 130px;
+}
+
+.horarios {
+    -webkit-box-shadow: 6px 13px 17px 5px rgba(0,0,0,0.59); 
+    box-shadow: 6px 13px 17px 5px rgba(0,0,0,0.59);
+    border: solid 1px black;border: solid 1px black;
+    margin-top: 100px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 auto;
+    width: 750px;
+    height: 320px;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: #d1bfa2;
+}
+
+table tbody tr:hover td {
+    background-color: #c5ab84;
+}
+
+tbody td:nth-child(n):not(:nth-child(5)) {
+    border-right: 1px solid black;
+}
+
+tbody td:nth-child(n) {
+    border-top: 1px solid black;
+}
+
+th, td {
+    padding: 3px;
+}
+
+th, td {
+    padding: 2px 12px;
+}
+
+table thead th {
+    background-color: #3ec2b2;
+}
+
+.textoHorarios {
+    margin: 0 auto;
+}
+
+.formatarContentHorarios {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.tituloContato {
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Apple Chancery', cursive;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.areaContato {
+    display: flex;
+    width: 100%;
+    margin-top: 25px;
+    gap: 30px;
+    align-items: stretch;
+}
+
+.blocoContato {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px;
+}
+
+.formatarContatos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    width: 100%;
+}
+
+.blocoContato iframe {
+    max-width: 100%;
+    align-self: flex-start;
+    margin: 0;
+    transform: translateX(-215px);
+}
+
+.blocoForms {
+    flex: 1;
+    min-width: 0;
+    padding: 20px;
+    border: 1px solid #32968a;
+    border-radius: 10px;
+}
+
+.labelDesign {
+    width: 100%;
+    display: inline-block;
+    padding-right: 5px; 
+    font-size: 20px;
+}
+
+input {
+    font-size: 20px;
+}
+
+.row{
+    margin: 8px;
+}
+
+.formButton {
+    margin: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+}
+
+textarea {
+    width: 410px;
+    height: 230px;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding-inline: 10px;
+}
+
+.assunto {
+    width: 300px;
+    box-sizing: border-box;
+    margin-left: 0;
+}
+
+input[type="email"] {
+    width: 300px;
+    box-sizing: border-box;
+    margin-left: 0;
+}

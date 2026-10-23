@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pata Serena - Clínica Veterinária</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="header">
+            <img src="Imagens/pata serena header contato.png" alt="Clínica Pata Serena">
+        </div>
+
+        <div class="main">
+
+            <div class="menu">
+                <ul class="formatarMenu" style="list-style-type: none;">
+                    <li><img style="margin-bottom: 30px;" src="Imagens/logo.png" alt="Logo Pata Serena" width="200px"></li>
+                    <li><a href="paginaInicial.html" target="_self" style="color: black; font-size: 40px;">Inicio</a></li><br>
+                    <li><a href="horarios.html" target="_self" style="color: black; font-size: 40px;">Horários</a></li><br>
+                    <li><a href="contato.html" target="_self" style="color: black; font-size: 40px;">Contato</a></li><br>
+                    <li><a href="sobre.html" target="_self" style="color: black; font-size: 40px;">Sobre a clínica</a></li><br>                    
+                </ul>
+            </div>
+
+            <div class="content">
+                <h1 class="tituloContato">Entre em contato conosco!</h1>
+                <div class="areaContato">
+                    <div class="blocoContato">
+                        <div class="formatarContatos">
+                            <div class="logos">
+                                <img src="Imagens/endereçoLogo.png" alt="" width="32px"><span class="fonteApple">Praça da Sé, 113 - Sé, São Paulo - SP, CEP 01001-000.</span>
+                            </div>                
+                            <div class="logos">
+                                <img src="Imagens/whatsAppLogo.png" alt="" width="50px"><span class="fonteApple">(11) 4000-2026</span>
+                            </div>                    
+                        </div> 
+                    <iframe style="margin-left: 344px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.501171725009!2d-46.6342562!3d-23.5504373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59aaff9530e9%3A0x72ef2b30cf146994!2zUHJhw6dhIGRhIFPDqSwgMTEzIC0gU8OpLCBTw6NvIFBhdWxvIC0gU1AsIDAxMDAxLTAwMQ!5e0!3m2!1spt-BR!2sbr!4v1792701997977!5m2!1spt-BR!2sbr" width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </div>
+                    <div class="blocoForms">   
+                        <form name="formularioDeContato" onsubmit="alert('Seu formulário foi enviado com sucesso!')" target="_self" method="get">
+                            <ul>
+                                <li style="list-style: none;">
+                                    <div class="row">
+                                        <label class="labelDesign" for="userName">Nome:</label>
+                                        <input type="text" id="userName" name="name" required>
+                                        <button class="formButton" type="button" onclick="alert('Escreva seu nome aqui!')">?</button>                                        
+                                    </div>
+                                    <div class="row">
+                                        <label class="labelDesign" for="e-mail">E-mail:</label>
+                                        <input type="email" id="e-mail" name="e-mail" required>
+                                        <button class="formButton" type="button" onclick="alert('Escreva seu e-mail aqui!')">?</button>
+                                    </div>
+                                    <div class="row">
+                                        <label class="labelDesign" for="assunto">Assunto:</label>
+                                        <input class="assunto" type="text" id="assunto" name="assunto" required>
+                                        <button class="formButton" type="button" onclick="alert('Escreva o assunto da sua mensagem aqui!')">?</button>                                        
+                                    </div>  
+                                    <div class="row">
+                                        <label class="labelDesign" for="mensagem">Mensagem:</label>
+                                        <textarea name="mensagem" id="mensagem" cols="40" rows="15"></textarea>
+                                        <button class="formButton" type="button" onclick="alert('Escreva sua mensagem aqui!')">?</button>                                        
+                                    </div>        
+                                    <br><button class="row" type="submit" name="enviarFormulario" style="font-size: 20px;">Enviar</button><button class="row" type="reset" name="apagarFormulario" style="font-size: 20px;">Apagar</button>                                                               
+                                </li>
+                            </ul>
+                        </form>                 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="infos">
+                <img src="Imagens/catLogo.png" alt="" width="130px">                  
+                <div class="logos">
+                    <img src="Imagens/endereçoLogo.png" alt="" width="32px"><span class="fonteApple">Praça da Sé, 113 - Sé, São Paulo - SP, CEP 01001-000.</span>
+                </div>
+                <div class="logos">
+                    <img src="Imagens/whatsAppLogo.png" alt="" width="50px"><span class="fonteApple">(11) 4000-2026</span>
+                </div>
+                <div class="logos">
+                    <img src="Imagens/e-mailLogo.png" alt="" width="48px"><span class="fonteApple">pataserenavet@gmail.com</span></div>
+                <div class="logos">
+                    <img src="Imagens/instagramLogo.png" alt="" width="25px"><span class="fonteApple">@pataserena_vet</span>
+                </div>
+                <img src="Imagens/dogFooterLogo.png" alt="" width="114px">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
