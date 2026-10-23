@@ -1,4 +1,4 @@
-# Desafio de HTML da DIO.me - Criar um site de uma clínica fictícia
+# Desafio de HTML da DIO.me - Criar um Site de uma Clínica Fictícia
 
 Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que devem ser abordados são:
 - Formulários
