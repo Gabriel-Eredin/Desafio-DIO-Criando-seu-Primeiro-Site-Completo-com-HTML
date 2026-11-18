@@ -10,6 +10,9 @@ Projeto desenvolvido como parte do desafio do Módulo 02 do curso de HTML da DIO
 
 O objetivo foi desenvolver um site para uma clínica fictícia, aplicando os conhecimentos adquiridos durante as aulas de HTML e explorando recursos de CSS para personalizar o visual e organizar o conteúdo das páginas.
 
+### Link
+https://gabriel-eredin.github.io/Desafio-DIO-Criando-seu-Primeiro-Site-Completo-com-HTML/
+
 ## Instruções
 1. criar um site de uma clínica médica (da minha escolha)
 2. Este site deve conter o seguinte menu de navegação:
